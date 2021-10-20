@@ -27,10 +27,6 @@ app.use('/add', AddRoutes)
 app.use('/courses', CoursesRoutes)
 app.use('/card', cardRouters)
 
-
-
-
-
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 })
